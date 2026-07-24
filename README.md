@@ -20,4 +20,4 @@ After the ALB and EC2 instances are running, run the load test from a machine wi
 python3 load_test.py http://test-alb-2031674237.us-east-1.elb.amazonaws.com/
 ```
 
-Replace the URL with your ALB DNS name if it differs. The script sends concurrent GET requests to the load balancer and prints a summary of responses.
+Replace the URL with your ALB DNS name if it differs. The script sends concurrent GET requests to the load balancer and prints a summary of responses
