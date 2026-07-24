@@ -1,7 +1,7 @@
 #!/bin/bash
 
 sudo apt update -y
-sudo apt install -y python3-pip python3-flask gunicorn curl git
+sudo apt install -y python3-pip python3-flask python3-werkzeug gunicorn curl git
 
 rm -rf /home/ubuntu/app
 git clone https://github.com/amrita2201/oaf-workshop-sample-app.git /home/ubuntu/app
