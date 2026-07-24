@@ -17,7 +17,7 @@ if not alb_input.startswith("http://") and not alb_input.startswith("https://"):
 else:
     ALB_URL = alb_input if alb_input.endswith("/") else f"{alb_input}/"
 
-# Configuration settings
+# Configuring the settings
 TOTAL_REQUESTS = 50000     # Total requests to send
 CONCURRENT_THREADS = 50   # Number of parallel workers
 TIMEOUT = 5               # Request timeout in seconds
